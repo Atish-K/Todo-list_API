@@ -11,9 +11,9 @@ app.use(express.urlencoded({extended:true}));
 
 
 app.use("/",(req,res)=>{
-    res.send("Hello");
+    res.send("Hello");  
 });
 
-app.listen(process.env.PORT, ()=>{
-    console.log(`Server is running on port ${process.env.PORT}`);
+app.listen(process.env.PORT, ()=>{ 
+     console.log(`Server is running on port ${process.env.PORT}`);
 })
